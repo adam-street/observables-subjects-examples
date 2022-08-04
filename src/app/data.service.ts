@@ -11,7 +11,7 @@ export class DataService {
 
   constructor() { }
 
-  setIp(newValue: string) {
+  setIp(newValue: any) {
     this.ip = newValue;
     this.ip$.next(this.ip);
   }

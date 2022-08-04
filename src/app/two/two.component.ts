@@ -17,7 +17,7 @@ export class TwoComponent implements OnInit {
   }
 
   onUpdateIp(){
-    this.dataService.setIp("1.1.1.1")
+    this.dataService.setIp(Math.random());
   }
 
 }
